@@ -6,8 +6,8 @@ spec:
   template:
     metadata:
       labels:
-        tags.datadoghq.com/version: "1.0"
+        tags.datadoghq.com/version: "f205a5563b03665e57f49ca9a1f3c5215b472be1"
     spec:
       containers:
-      - image: "shocnt/ads-service:v1"
+      - image: "shocnt/ads-service:f205a5563b03665e57f49ca9a1f3c5215b472be1"
         name: advertisements
