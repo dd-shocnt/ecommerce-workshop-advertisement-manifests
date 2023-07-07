@@ -17,8 +17,8 @@ spec:
     metadata:
       labels:
         tags.datadoghq.com/env: staging
-        tags.datadoghq.com/version: "41601650d7aca39c382fdeb8819c02bbbab7fda9"
+        tags.datadoghq.com/version: "7e19b8e2675bc7c09a13c4a1b5f9a196233eb5b7"
     spec:
       containers:
-      - image: "shocnt/ads-service:41601650d7aca39c382fdeb8819c02bbbab7fda9"
+      - image: "shocnt/ads-service:7e19b8e2675bc7c09a13c4a1b5f9a196233eb5b7"
         name: advertisements
