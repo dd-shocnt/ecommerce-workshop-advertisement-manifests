@@ -29,7 +29,6 @@ spec:
         app: ecommerce
       annotations:
         ad.datadoghq.com/advertisements.logs: '[{"source": "python", "service": "advertisements-service"}]'
-        ad.datadoghq.com/advertisements.tags: '{"team": "advertisements"}'
     spec:
       containers:
       - image: IMAGE

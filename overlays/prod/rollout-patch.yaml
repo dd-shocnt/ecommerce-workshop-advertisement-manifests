@@ -17,16 +17,16 @@ spec:
         startingStep: 1
         args:
         - {name: service-name, value: advertisements-service}
-        - {name: version, value: "41601650d7aca39c382fdeb8819c02bbbab7fda9"}
+        - {name: version, value: "460c58ea3ba5795ffa811887328e9cb84b35b737"}
       steps:
       - setWeight: 25
-      - pause: {duration: 5m}
+      - pause: {duration: 3m}
   template:
     metadata:
       labels:
         tags.datadoghq.com/env: prod
-        tags.datadoghq.com/version: "41601650d7aca39c382fdeb8819c02bbbab7fda9"
+        tags.datadoghq.com/version: "460c58ea3ba5795ffa811887328e9cb84b35b737"
     spec:
       containers:
-      - image: "shocnt/ads-service:41601650d7aca39c382fdeb8819c02bbbab7fda9"
+      - image: "shocnt/ads-service:460c58ea3ba5795ffa811887328e9cb84b35b737"
         name: advertisements
